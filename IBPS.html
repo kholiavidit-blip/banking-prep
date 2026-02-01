@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IBPS Preparation</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<header>
+  <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+
+  <div class="site-title">Banking Prep</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="SBI.html" class="active">SBI</a>
+    <a href="IBPS.html">IBPS</a>
+    <a href="Insurance.html">Insurance</a>
+  </nav>
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <h3>Sections</h3>
+    <a href="#">Reasoning</a>
+    <a href="quants.html">Quants</a>
+    <a href="#">English</a>
+    <a href="#">General Awareness</a>
+    <a href="#">Banking Awareness</a>
+  </aside>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
+    
+      <img src="images/ibps.png" class="content-img">
+    
+    
+
+
+    <h3>IBPS PO</h3>
+    <p>
+     The most famous exam among all banking aspirants, every year they come out with ample vacancies
+     and a lot of candidates apply for it. It contains a group of government banks. Many senior 
+     players in the banking sector have started their careers from here. 
+    </p>
+
+    <p>
+        The in-hand salary of a PO here is approx ₹72,000 and the age limit for this exam is
+        21-30 years.
+    </p>
+
+    <p>
+       The examination is conducted in three stages: Prelims, Mains and then Interview. The different
+       sections, paper pattern and even marks are given in the link below. 
+
+    </p>
+
+    <div class="pdf-center">
+  <a href="ibps po syllabus.pdf" download class="download-btn">
+    📥 Download IBPS PO PDF
+  </a>
+</div>
+
+
+    <h3>IBPS Clerk</h3>
+    <p>
+      Another popular option among candidates to enter the organisation. This examination is
+      conducted in two stages: Prelims and Mains. 
+      
+    </p>
+    <p>
+      The in-hand salary of a new SBI Clerk is around ₹42,000.
+    </p>
+
+    <p>
+      The syllabus, paper pattern and marks distribution are given in the link below.
+    </p>
+
+    <div class="pdf-center">
+  <a href="ibps clerk.pdf" download class="download-btn">
+    📥 Download IBPS Clerk PDF
+  </a>
+
+
+  
+</div>
+     <h3>IBPS RRB PO and Clerk</h3>
+     <p>
+      Regional Rural Banks form the backbone of our economy. IBPS conducts the Probationary Ofiicers
+      recruitment exams for these banks. The salary of a PO in a RRB is approximately ₹80,000 and the
+      age limit to apply is 21-30 years. The paper pattern, marks and syllabus is given below.
+     </p>
+
+     <div class="pdf-center">
+  <a href="rrb po syllabus.pdf" download class="download-btn">
+    📥 Download RRB PO PDF
+  </a>
+</div>
+
+
+     
+     <p>
+      IBPS conducts the recruitment of clerks in RRB's. The age limit for this exam is 21-28 years and
+      the approx salary is ₹47,000. The syllabus, paper pattern and marks are given below.
+     </p>
+
+      <div class="pdf-center">
+  <a href="rrb clerk syllabus.pdf" download class="download-btn">
+    📥 Download RRB Clerk PDF
+  </a>
+
+  
+</div>
+      <h3>IBPS SO</h3>
+      <p>
+        Just like SBI, IBPS also conducts recruitment of officers related to specialised fields like 
+        Information Technology, Marketing, Sales. These vacancies usually ask for some kind of experience 
+        in the given fields. The syllabus, marking pattern and paper pattern would be updated once the
+        notification is out.
+      </p>
+  </div>
+
+</div>
+
+<script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

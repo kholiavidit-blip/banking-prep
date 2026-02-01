@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Insurance Preparation</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<header>
+  <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+
+  <div class="site-title">Banking Prep</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="SBI.html" class="active">SBI</a>
+    <a href="IBPS.html">IBPS</a>
+    <a href="Insurance.html">Insurance</a>
+  </nav>
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <h3>Sections</h3>
+    <a href="#">Reasoning</a>
+    <a href="quants.html">Quants</a>
+    <a href="#">English</a>
+    <a href="#">General Awareness</a>
+    <a href="#">Banking Awareness</a>
+  </aside>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
+    
+      <img src="images/Insurance-logo.png" class="content-img">
+    
+    
+
+
+    <h3>Officers</h3>
+    <p>
+     Government insurance companies like LIC, OICL, NICL, NIACL conduct exams for AO, AAO through 
+     IBPS. These exams are somewhat easier than PO banking exams. Syllabus is mostly same as 
+     banking exams with the addition of insurance awareness in mains exams.
+     These exams are very popular among aspirants due to good work-life balance. 
+    </p>
+
+    
+
+    
+
+
+    <h3>Assistants</h3>
+    <p>
+      The clerical cadre here is reffered to as assistants. Paper is easier than clerical exams of 
+      banking sector but due to easy nature cut-offs are usually high. 
+      
+    </p>
+    
+
+   
+
+    
+
+
+  
+</div>
+     
+  </div>
+
+</div>
+
+<script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

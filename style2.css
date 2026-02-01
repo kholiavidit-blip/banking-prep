@@ -1,0 +1,27 @@
+.topic-section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.topic-section h3 {
+  margin-bottom: 10px;
+  color: #1e73be;
+}
+
+.pdf-link {
+  display: block;
+  padding: 10px 12px;
+  margin: 6px 0;
+  border-radius: 8px;
+  background: #f0f7ff;
+  color: #1e73be;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pdf-link:hover {
+  background: #dcecff;
+}

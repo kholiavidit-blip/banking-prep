@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SBI Preparation</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+<header>
+  <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+
+  <div class="site-title">Banking Prep</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="SBI.html" class="active">SBI</a>
+    <a href="IBPS.html">IBPS</a>
+    <a href="Insurance.html">Insurance</a>
+  </nav>
+</header>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <h3>Sections</h3>
+    <a href="#">Reasoning</a>
+    <a href="quants.html">Quants</a>
+    <a href="#">English</a>
+    <a href="#">General Awareness</a>
+    <a href="#">Banking Awareness</a>
+  </aside>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
+    
+      <img src="images/sbi banner.png" class="content-img">
+    
+    
+
+
+    <h3>SBI PO</h3>
+    <p>
+     One of the most prestigious exams to enter the banking sector. Be it Arundhati Bhattacharya,
+     Rajnish Kumar, Dinesh Kumar Khara and CS Setty, one thing common among all these chairpersons 
+     is that they started their career as a Probationary Officer in SBI. 
+    </p>
+
+    <p>
+       The examination is conducted in three stages: Prelims, Mains and then Interview. The different
+       sections, paper pattern and even marks are given in the link below. 
+
+    </p>
+
+    <div class="pdf-center">
+  <a href="sbi syllabus.pdf" download class="download-btn">
+    📥 Download SBI PO PDF
+  </a>
+</div>
+
+
+    <h3>SBI Clerk</h3>
+    <p>
+      Another popular option among candidates to enter the organisation. This examination is
+      conducted in two stages: Prelims and Mains. 
+      
+    </p>
+    <p>
+      The in-hand salary of a new SBI Clerk is around ₹42,000.
+    </p>
+
+    <p>
+      The syllabus, paper pattern and marks distribution are given in the link below.
+    </p>
+
+    <div class="pdf-center">
+  <a href="sbi clerk syllabus.pdf" download class="download-btn">
+    📥 Download SBI Clerk PDF
+  </a>
+
+
+  
+</div>
+     <h3>SBI SO and CBO</h3>
+     <p>
+      SBI Specialist Officer is related to certain fields like Information Technology, Marketing, Sales.
+      These roles generally look for experience in a certain field. The eligibility, exam pattern and 
+      marks would be updated as soon as new vacancies are announced.
+     </p>
+     
+     <p>
+      SBI Circle Based Officer vacancy is generally state based, with the Finanace Minister's recent
+      statement focusing more on language specific job posting, government banks are focusing more on 
+      CBO. Like SO this also requires some prior experience in the banking industry.
+     </p>
+  </div>
+
+</div>
+
+<script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

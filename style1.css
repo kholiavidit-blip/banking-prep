@@ -1,0 +1,430 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #f6f8fc;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #1e73be, #155a96);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffdd57;
+}
+
+
+
+.site-title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* NAV MENU */
+nav a {
+  color: white;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #ffdd57;
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e73be;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #555;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  position: sticky;
+  top: 0; /* sticks directly below header */
+  height: calc(100vh - 70px);
+}
+
+/* SIDEBAR TITLE */
+.sidebar h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #1e73be;
+}
+
+/* SIDEBAR LINKS */
+.sidebar a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 6px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.sidebar a:hover {
+  background: #e9f2ff;
+  color: #1e73be;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px 40px;
+}
+
+.main-content h2 {
+  color: #1e73be;
+  margin-bottom: 10px;
+}
+
+.content-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.contact-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 420px;
+  margin: 30px auto;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.contact-card h3 {
+  margin-bottom: 18px;
+  color: #1e73be;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contact-link {
+  display: block;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+/* YouTube Style */
+.youtube {
+  background: #ffe5e5;
+  color: #cc0000;
+}
+.youtube:hover {
+  background: #ffcccc;
+}
+
+/* Telegram Style */
+.telegram {
+  background: #e8f4ff;
+  color: #0088cc;
+}
+.telegram:hover {
+  background: #d6ebff;
+}
+
+/* Practice Style */
+.practice {
+  background: #f0f7ff;
+  color: #1e73be;
+}
+.practice:hover {
+  background: #dcecff;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #f6f8fc;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #1e73be, #155a96);
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffdd57;
+}
+
+
+
+.site-title {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* NAV MENU */
+nav a {
+  color: white;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #ffdd57;
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1e73be;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 17px;
+  color: #555;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  position: sticky;
+  top: 0; /* sticks directly below header */
+  height: calc(100vh - 70px);
+}
+
+/* SIDEBAR TITLE */
+.sidebar h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #1e73be;
+}
+
+/* SIDEBAR LINKS */
+.sidebar a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 6px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.sidebar a:hover {
+  background: #e9f2ff;
+  color: #1e73be;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px 40px;
+}
+
+.main-content h2 {
+  color: #1e73be;
+  margin-bottom: 10px;
+}
+
+.content-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+
+
+/* Practice Style */
+.practice {
+  background: #f0f7ff;
+  color: #1e73be;
+}
+.practice:hover {
+  background: #dcecff;
+}
+/* MENU BUTTON */
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* OVERLAY */
+.overlay {
+  display: none;
+}
+
+/* MOBILE SIDEBAR */
+@media (max-width: 900px) {
+
+  header nav {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 65px;
+    left: -280px;
+    height: calc(100vh - 65px);
+    transition: 0.3s ease;
+    z-index: 1000;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 65px);
+    background: rgba(0,0,0,0.4);
+    z-index: 999;
+  }
+
+  .overlay.active {
+    display: block;
+  }
+
+  .layout {
+    flex-direction: column;
+  }
+}
+
+.pdf-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-btn {
+  padding: 12px 22px;
+  background: #1e73be;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #155a96;
+  transform: scale(1.03);
+}
+
+.content-img {
+  width: 50%;
+  max-width: 220px;
+  border-radius: 12px;
+  margin: 15px auto;
+  display: block;
+    
+}
+
+
